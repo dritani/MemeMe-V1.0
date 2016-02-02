@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -61,9 +62,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="53" y="470" width="294" height="60"/>
-                                </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="TOP" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cU9-5K-LrQ">
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
@@ -71,9 +69,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="53" y="90" width="294" height="60"/>
-                                </variation>
                             </textField>
                         </subviews>
                         <animations/>
@@ -104,15 +99,15 @@
                                 <exclude reference="cU9-5K-LrQ"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="2rY-5u-mla"/>
+                                <exclude reference="TLU-cK-oXI"/>
+                                <exclude reference="ezU-Ll-RTW"/>
                                 <exclude reference="1od-xK-otq"/>
                                 <exclude reference="Xha-TA-irC"/>
                                 <exclude reference="nVb-y6-KFc"/>
                                 <exclude reference="UUZ-Gu-Cwm"/>
                                 <exclude reference="kdv-2Y-q2L"/>
                                 <exclude reference="phv-DV-nNO"/>
-                                <exclude reference="TLU-cK-oXI"/>
-                                <exclude reference="ezU-Ll-RTW"/>
-                                <exclude reference="2rY-5u-mla"/>
                                 <exclude reference="5kh-C0-bZU"/>
                                 <exclude reference="U9f-lk-EWN"/>
                                 <exclude reference="k72-bb-hva"/>
@@ -128,15 +123,15 @@
                                 <include reference="cU9-5K-LrQ"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="2rY-5u-mla"/>
+                                <include reference="TLU-cK-oXI"/>
+                                <include reference="ezU-Ll-RTW"/>
                                 <include reference="1od-xK-otq"/>
                                 <include reference="Xha-TA-irC"/>
                                 <include reference="nVb-y6-KFc"/>
                                 <include reference="UUZ-Gu-Cwm"/>
                                 <include reference="kdv-2Y-q2L"/>
                                 <include reference="phv-DV-nNO"/>
-                                <include reference="TLU-cK-oXI"/>
-                                <include reference="ezU-Ll-RTW"/>
-                                <include reference="2rY-5u-mla"/>
                                 <include reference="5kh-C0-bZU"/>
                                 <include reference="U9f-lk-EWN"/>
                                 <include reference="k72-bb-hva"/>

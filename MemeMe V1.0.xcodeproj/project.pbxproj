@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E0E26301C5DB5470092C8D0 /* MemeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0E262F1C5DB5470092C8D0 /* MemeCollectionViewController.swift */; };
 		6E0E26321C5DB5A10092C8D0 /* MemeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0E26311C5DB5A10092C8D0 /* MemeViewCell.swift */; };
 		6E30C25B1C51EC3200066341 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E30C25A1C51EC3200066341 /* Meme.swift */; };
 		6E88932C1C5077AE00CDA427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88932B1C5077AE00CDA427 /* AppDelegate.swift */; };
@@ -37,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6E0E262F1C5DB5470092C8D0 /* MemeCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemeCollectionViewController.swift; path = ../MemeCollectionViewController.swift; sourceTree = "<group>"; };
 		6E0E26311C5DB5A10092C8D0 /* MemeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeViewCell.swift; sourceTree = "<group>"; };
 		6E30C25A1C51EC3200066341 /* Meme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
 		6E8893281C5077AE00CDA427 /* MemeMe V1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MemeMe V1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,7 +103,6 @@
 			children = (
 				6E88932B1C5077AE00CDA427 /* AppDelegate.swift */,
 				6E88932D1C5077AE00CDA427 /* ViewController.swift */,
-				6E0E262F1C5DB5470092C8D0 /* MemeCollectionViewController.swift */,
 				6E0E26311C5DB5A10092C8D0 /* MemeViewCell.swift */,
 				6E88932F1C5077AE00CDA427 /* Main.storyboard */,
 				6E30C25A1C51EC3200066341 /* Meme.swift */,
@@ -268,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E0E26301C5DB5470092C8D0 /* MemeCollectionViewController.swift in Sources */,
 				6E30C25B1C51EC3200066341 /* Meme.swift in Sources */,
 				6E0E26321C5DB5A10092C8D0 /* MemeViewCell.swift in Sources */,
 				6E88932E1C5077AE00CDA427 /* ViewController.swift in Sources */,
