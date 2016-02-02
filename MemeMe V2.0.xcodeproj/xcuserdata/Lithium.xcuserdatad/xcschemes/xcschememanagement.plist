@@ -4,8 +4,10 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MemeMe V1.0.xcscheme</key>
+		<key>MemeMe V2.0.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
