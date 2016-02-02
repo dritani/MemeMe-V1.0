@@ -11,7 +11,7 @@
 		6E0E26321C5DB5A10092C8D0 /* MemeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0E26311C5DB5A10092C8D0 /* MemeViewCell.swift */; };
 		6E30C25B1C51EC3200066341 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E30C25A1C51EC3200066341 /* Meme.swift */; };
 		6E88932C1C5077AE00CDA427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88932B1C5077AE00CDA427 /* AppDelegate.swift */; };
-		6E88932E1C5077AE00CDA427 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88932D1C5077AE00CDA427 /* ViewController.swift */; };
+		6E88932E1C5077AE00CDA427 /* CreateMemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88932D1C5077AE00CDA427 /* CreateMemeViewController.swift */; };
 		6E8893311C5077AE00CDA427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E88932F1C5077AE00CDA427 /* Main.storyboard */; };
 		6E8893331C5077AE00CDA427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8893321C5077AE00CDA427 /* Assets.xcassets */; };
 		6E8893361C5077AF00CDA427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8893341C5077AF00CDA427 /* LaunchScreen.storyboard */; };
@@ -40,17 +40,17 @@
 		6E0E262F1C5DB5470092C8D0 /* MemeCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemeCollectionViewController.swift; path = ../MemeCollectionViewController.swift; sourceTree = "<group>"; };
 		6E0E26311C5DB5A10092C8D0 /* MemeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeViewCell.swift; sourceTree = "<group>"; };
 		6E30C25A1C51EC3200066341 /* Meme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
-		6E8893281C5077AE00CDA427 /* MemeMe V1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MemeMe V1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8893281C5077AE00CDA427 /* MemeMe V2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MemeMe V2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E88932B1C5077AE00CDA427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E88932D1C5077AE00CDA427 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E88932D1C5077AE00CDA427 /* CreateMemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMemeViewController.swift; sourceTree = "<group>"; };
 		6E8893301C5077AE00CDA427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E8893321C5077AE00CDA427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E8893351C5077AF00CDA427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E8893371C5077AF00CDA427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E88933C1C5077AF00CDA427 /* MemeMe V1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MemeMe V1.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E88933C1C5077AF00CDA427 /* MemeMe V2.0.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MemeMe V2.0.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8893401C5077AF00CDA427 /* MemeMe_V1_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeMe_V1_0Tests.swift; sourceTree = "<group>"; };
 		6E8893421C5077AF00CDA427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E8893471C5077AF00CDA427 /* MemeMe V1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MemeMe V1.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8893471C5077AF00CDA427 /* MemeMe V2.0.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MemeMe V2.0.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E88934B1C5077AF00CDA427 /* MemeMe_V1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeMe_V1_0UITests.swift; sourceTree = "<group>"; };
 		6E88934D1C5077AF00CDA427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,9 +83,9 @@
 		6E88931F1C5077AE00CDA427 = {
 			isa = PBXGroup;
 			children = (
-				6E88932A1C5077AE00CDA427 /* MemeMe V1.0 */,
-				6E88933F1C5077AF00CDA427 /* MemeMe V1.0Tests */,
-				6E88934A1C5077AF00CDA427 /* MemeMe V1.0UITests */,
+				6E88932A1C5077AE00CDA427 /* MemeMe V2.0 */,
+				6E88933F1C5077AF00CDA427 /* MemeMe V2.0Tests */,
+				6E88934A1C5077AF00CDA427 /* MemeMe V2.0UITests */,
 				6E8893291C5077AE00CDA427 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,18 +93,18 @@
 		6E8893291C5077AE00CDA427 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E8893281C5077AE00CDA427 /* MemeMe V1.0.app */,
-				6E88933C1C5077AF00CDA427 /* MemeMe V1.0Tests.xctest */,
-				6E8893471C5077AF00CDA427 /* MemeMe V1.0UITests.xctest */,
+				6E8893281C5077AE00CDA427 /* MemeMe V2.0.app */,
+				6E88933C1C5077AF00CDA427 /* MemeMe V2.0.xctest */,
+				6E8893471C5077AF00CDA427 /* MemeMe V2.0.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6E88932A1C5077AE00CDA427 /* MemeMe V1.0 */ = {
+		6E88932A1C5077AE00CDA427 /* MemeMe V2.0 */ = {
 			isa = PBXGroup;
 			children = (
 				6E88932B1C5077AE00CDA427 /* AppDelegate.swift */,
-				6E88932D1C5077AE00CDA427 /* ViewController.swift */,
+				6E88932D1C5077AE00CDA427 /* CreateMemeViewController.swift */,
 				6E0E262F1C5DB5470092C8D0 /* MemeCollectionViewController.swift */,
 				6E0E26311C5DB5A10092C8D0 /* MemeViewCell.swift */,
 				6E88932F1C5077AE00CDA427 /* Main.storyboard */,
@@ -113,33 +113,35 @@
 				6E8893341C5077AF00CDA427 /* LaunchScreen.storyboard */,
 				6E8893371C5077AF00CDA427 /* Info.plist */,
 			);
-			path = "MemeMe V1.0";
+			path = "MemeMe V2.0";
 			sourceTree = "<group>";
 		};
-		6E88933F1C5077AF00CDA427 /* MemeMe V1.0Tests */ = {
+		6E88933F1C5077AF00CDA427 /* MemeMe V2.0Tests */ = {
 			isa = PBXGroup;
 			children = (
 				6E8893401C5077AF00CDA427 /* MemeMe_V1_0Tests.swift */,
 				6E8893421C5077AF00CDA427 /* Info.plist */,
 			);
+			name = "MemeMe V2.0Tests";
 			path = "MemeMe V1.0Tests";
 			sourceTree = "<group>";
 		};
-		6E88934A1C5077AF00CDA427 /* MemeMe V1.0UITests */ = {
+		6E88934A1C5077AF00CDA427 /* MemeMe V2.0UITests */ = {
 			isa = PBXGroup;
 			children = (
 				6E88934B1C5077AF00CDA427 /* MemeMe_V1_0UITests.swift */,
 				6E88934D1C5077AF00CDA427 /* Info.plist */,
 			);
+			name = "MemeMe V2.0UITests";
 			path = "MemeMe V1.0UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6E8893271C5077AE00CDA427 /* MemeMe V1.0 */ = {
+		6E8893271C5077AE00CDA427 /* MemeMe V2.0 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E8893501C5077AF00CDA427 /* Build configuration list for PBXNativeTarget "MemeMe V1.0" */;
+			buildConfigurationList = 6E8893501C5077AF00CDA427 /* Build configuration list for PBXNativeTarget "MemeMe V2.0" */;
 			buildPhases = (
 				6E8893241C5077AE00CDA427 /* Sources */,
 				6E8893251C5077AE00CDA427 /* Frameworks */,
@@ -149,14 +151,14 @@
 			);
 			dependencies = (
 			);
-			name = "MemeMe V1.0";
+			name = "MemeMe V2.0";
 			productName = "MemeMe V1.0";
-			productReference = 6E8893281C5077AE00CDA427 /* MemeMe V1.0.app */;
+			productReference = 6E8893281C5077AE00CDA427 /* MemeMe V2.0.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6E88933B1C5077AF00CDA427 /* MemeMe V1.0Tests */ = {
+		6E88933B1C5077AF00CDA427 /* MemeMe V2.0Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E8893531C5077AF00CDA427 /* Build configuration list for PBXNativeTarget "MemeMe V1.0Tests" */;
+			buildConfigurationList = 6E8893531C5077AF00CDA427 /* Build configuration list for PBXNativeTarget "MemeMe V2.0Tests" */;
 			buildPhases = (
 				6E8893381C5077AF00CDA427 /* Sources */,
 				6E8893391C5077AF00CDA427 /* Frameworks */,
@@ -167,14 +169,14 @@
 			dependencies = (
 				6E88933E1C5077AF00CDA427 /* PBXTargetDependency */,
 			);
-			name = "MemeMe V1.0Tests";
+			name = "MemeMe V2.0Tests";
 			productName = "MemeMe V1.0Tests";
-			productReference = 6E88933C1C5077AF00CDA427 /* MemeMe V1.0Tests.xctest */;
+			productReference = 6E88933C1C5077AF00CDA427 /* MemeMe V2.0.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6E8893461C5077AF00CDA427 /* MemeMe V1.0UITests */ = {
+		6E8893461C5077AF00CDA427 /* MemeMe V2.0UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E8893561C5077AF00CDA427 /* Build configuration list for PBXNativeTarget "MemeMe V1.0UITests" */;
+			buildConfigurationList = 6E8893561C5077AF00CDA427 /* Build configuration list for PBXNativeTarget "MemeMe V2.0UITests" */;
 			buildPhases = (
 				6E8893431C5077AF00CDA427 /* Sources */,
 				6E8893441C5077AF00CDA427 /* Frameworks */,
@@ -185,9 +187,9 @@
 			dependencies = (
 				6E8893491C5077AF00CDA427 /* PBXTargetDependency */,
 			);
-			name = "MemeMe V1.0UITests";
+			name = "MemeMe V2.0UITests";
 			productName = "MemeMe V1.0UITests";
-			productReference = 6E8893471C5077AF00CDA427 /* MemeMe V1.0UITests.xctest */;
+			productReference = 6E8893471C5077AF00CDA427 /* MemeMe V2.0.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6E8893231C5077AE00CDA427 /* Build configuration list for PBXProject "MemeMe V1.0" */;
+			buildConfigurationList = 6E8893231C5077AE00CDA427 /* Build configuration list for PBXProject "MemeMe V2.0" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,9 +231,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6E8893271C5077AE00CDA427 /* MemeMe V1.0 */,
-				6E88933B1C5077AF00CDA427 /* MemeMe V1.0Tests */,
-				6E8893461C5077AF00CDA427 /* MemeMe V1.0UITests */,
+				6E8893271C5077AE00CDA427 /* MemeMe V2.0 */,
+				6E88933B1C5077AF00CDA427 /* MemeMe V2.0Tests */,
+				6E8893461C5077AF00CDA427 /* MemeMe V2.0UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,7 +273,7 @@
 				6E0E26301C5DB5470092C8D0 /* MemeCollectionViewController.swift in Sources */,
 				6E30C25B1C51EC3200066341 /* Meme.swift in Sources */,
 				6E0E26321C5DB5A10092C8D0 /* MemeViewCell.swift in Sources */,
-				6E88932E1C5077AE00CDA427 /* ViewController.swift in Sources */,
+				6E88932E1C5077AE00CDA427 /* CreateMemeViewController.swift in Sources */,
 				6E88932C1C5077AE00CDA427 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,12 +299,12 @@
 /* Begin PBXTargetDependency section */
 		6E88933E1C5077AF00CDA427 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6E8893271C5077AE00CDA427 /* MemeMe V1.0 */;
+			target = 6E8893271C5077AE00CDA427 /* MemeMe V2.0 */;
 			targetProxy = 6E88933D1C5077AF00CDA427 /* PBXContainerItemProxy */;
 		};
 		6E8893491C5077AF00CDA427 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6E8893271C5077AE00CDA427 /* MemeMe V1.0 */;
+			target = 6E8893271C5077AE00CDA427 /* MemeMe V2.0 */;
 			targetProxy = 6E8893481C5077AF00CDA427 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -363,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -412,11 +414,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "MemeMe V1.0/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MemeMe V2.0/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.AquariusLB.MemeMe-V1-0";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AquariusLB.MemeMe-V2-0";
+				PRODUCT_NAME = "MemeMe V2.0";
 			};
 			name = Debug;
 		};
@@ -424,11 +426,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "MemeMe V1.0/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MemeMe V2.0/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.AquariusLB.MemeMe-V1-0";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AquariusLB.MemeMe-V2-0";
+				PRODUCT_NAME = "MemeMe V2.0";
 			};
 			name = Release;
 		};
@@ -439,8 +441,8 @@
 				INFOPLIST_FILE = "MemeMe V1.0Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AquariusLB.MemeMe-V1-0Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemeMe V1.0.app/MemeMe V1.0";
+				PRODUCT_NAME = "MemeMe V2.0";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemeMe V2.0.app/MemeMe V2.0";
 			};
 			name = Debug;
 		};
@@ -451,8 +453,8 @@
 				INFOPLIST_FILE = "MemeMe V1.0Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AquariusLB.MemeMe-V1-0Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemeMe V1.0.app/MemeMe V1.0";
+				PRODUCT_NAME = "MemeMe V2.0";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemeMe V2.0.app/MemeMe V2.0";
 			};
 			name = Release;
 		};
@@ -462,7 +464,7 @@
 				INFOPLIST_FILE = "MemeMe V1.0UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AquariusLB.MemeMe-V1-0UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MemeMe V2.0";
 				TEST_TARGET_NAME = "MemeMe V1.0";
 				USES_XCTRUNNER = YES;
 			};
@@ -474,7 +476,7 @@
 				INFOPLIST_FILE = "MemeMe V1.0UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AquariusLB.MemeMe-V1-0UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MemeMe V2.0";
 				TEST_TARGET_NAME = "MemeMe V1.0";
 				USES_XCTRUNNER = YES;
 			};
@@ -483,7 +485,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6E8893231C5077AE00CDA427 /* Build configuration list for PBXProject "MemeMe V1.0" */ = {
+		6E8893231C5077AE00CDA427 /* Build configuration list for PBXProject "MemeMe V2.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E88934E1C5077AF00CDA427 /* Debug */,
@@ -492,7 +494,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E8893501C5077AF00CDA427 /* Build configuration list for PBXNativeTarget "MemeMe V1.0" */ = {
+		6E8893501C5077AF00CDA427 /* Build configuration list for PBXNativeTarget "MemeMe V2.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E8893511C5077AF00CDA427 /* Debug */,
@@ -501,7 +503,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E8893531C5077AF00CDA427 /* Build configuration list for PBXNativeTarget "MemeMe V1.0Tests" */ = {
+		6E8893531C5077AF00CDA427 /* Build configuration list for PBXNativeTarget "MemeMe V2.0Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E8893541C5077AF00CDA427 /* Debug */,
@@ -510,7 +512,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E8893561C5077AF00CDA427 /* Build configuration list for PBXNativeTarget "MemeMe V1.0UITests" */ = {
+		6E8893561C5077AF00CDA427 /* Build configuration list for PBXNativeTarget "MemeMe V2.0UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E8893571C5077AF00CDA427 /* Debug */,
