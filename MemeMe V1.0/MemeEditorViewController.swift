@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MemeEditorViewController.swift
 //  MemeMe V1.0
 //
 //  Created by Dritani on 2016-01-20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate {
+class MemeEditorViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate {
 
 
     /// Initiation
@@ -16,6 +16,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     // Initiate outlets
     @IBOutlet weak var cameraButton: UIBarButtonItem!
     @IBOutlet weak var shareButton: UIBarButtonItem!
+    
+    @IBOutlet weak var navigationBar: UIToolbar!
+    @IBOutlet weak var toolBar: UIToolbar!
+
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var topText: UITextField! {
@@ -36,25 +40,28 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     // viewDidLoad and viewWillAppear
     override func viewDidLoad() {
         super.viewDidLoad()
-        shareButton.enabled = false
-        
-    }
-
-    override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
-
         cameraButton.enabled = UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.Camera)
+        if let existingMeme = meme {
+            // Existing meme. Use self.meme
+            topText.text = existingMeme.text1
+            botText.text = existingMeme.text2
+            imageView.image = existingMeme.image
+            shareButton.enabled = true
+        } else {
+            // New meme. self.meme is not used
+            topText.text = "TOP"
+            botText.text = "BOTTOM"
+            shareButton.enabled = false
+        }
+        
         imageView.backgroundColor = UIColor.blackColor()
         topText.defaultTextAttributes = memeTextAttributes
         botText.defaultTextAttributes = memeTextAttributes
-        topText.text = "TOP"
-        botText.text = "BOTTOM"
+        
         
         subscribeToKeyboardNotifications()
     }
-
-
-    
+ 
     /// 4 buttons with actions
     
     // Image from Album button
@@ -167,8 +174,12 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             AppDelegate).memes.append(meme)
     }
     
+
+
+    
     func generateMemedImage() -> UIImage {
-        // TODO: Hide toolbar and navbar
+        
+        toolbarVisible(false)
         
         // render view to an image
         UIGraphicsBeginImageContext(self.view.frame.size)
@@ -176,17 +187,20 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         let memedImage : UIImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         
-        // TODO:  Show toolbar and navbar
+        toolbarVisible(true)
+
         return memedImage
     }
     
-    // Collection view
+    func toolbarVisible(visible: Bool) {
+        toolBar.hidden = !visible
+        navigationBar.hidden = !visible
+    }
     
-    
-    // Cancel BUtton
-//    @IBAction func cancelButton(sender: UIBarButtonItem) {
-//        self.dismissViewControllerAnimated(true, completion: nil)
-//    }
+
+    @IBAction func cancelButton(sender: UIBarButtonItem) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
     
 
     
