@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var memes = [Meme]()
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        UINavigationBar.appearance().barTintColor = UIColor.greenColor()
         // Override point for customization after application launch.
         return true
     }

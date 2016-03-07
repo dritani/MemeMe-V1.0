@@ -175,7 +175,7 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCell" id="hdr-fY-RNb" customClass="memeCollectionCell" customModule="MemeMe_V1_0" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="64" width="132" height="123"/>
+                                <rect key="frame" x="0.0" y="64" width="117" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="117" height="123"/>
@@ -239,18 +239,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableCell" rowHeight="103" id="Hey-0N-oqK" customClass="memeTableCell" customModule="MemeMe_V1_0" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="92" width="600" height="89"/>
+                                <rect key="frame" x="0.0" y="92" width="600" height="103"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hey-0N-oqK" id="UDj-LP-P81">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="88"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="102"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Cd-D0-ZuT">
                                             <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                             <animations/>
-                                            <variation key="widthClass=compact" misplaced="YES">
-                                                <rect key="frame" x="8" y="0.0" width="169" height="102"/>
-                                            </variation>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtp-7a-OnW">
                                             <rect key="frame" x="-42" y="-21" width="42" height="21"/>
@@ -258,9 +255,6 @@
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
-                                            <variation key="widthClass=compact" misplaced="YES">
-                                                <rect key="frame" x="179" y="40" width="42" height="21"/>
-                                            </variation>
                                         </label>
                                     </subviews>
                                     <animations/>
@@ -279,13 +273,13 @@
                                             <exclude reference="rtp-7a-OnW"/>
                                         </mask>
                                         <mask key="constraints">
-                                            <exclude reference="KSi-qi-Pmk"/>
-                                            <exclude reference="d6F-7C-Cqa"/>
-                                            <exclude reference="zmS-Sp-zbH"/>
                                             <exclude reference="7nD-Is-Su8"/>
                                             <exclude reference="KfT-ud-445"/>
                                             <exclude reference="MOL-n8-cY4"/>
                                             <exclude reference="V4I-d8-tNF"/>
+                                            <exclude reference="KSi-qi-Pmk"/>
+                                            <exclude reference="d6F-7C-Cqa"/>
+                                            <exclude reference="zmS-Sp-zbH"/>
                                         </mask>
                                     </variation>
                                     <variation key="widthClass=compact">
@@ -294,13 +288,13 @@
                                             <include reference="rtp-7a-OnW"/>
                                         </mask>
                                         <mask key="constraints">
-                                            <include reference="KSi-qi-Pmk"/>
-                                            <include reference="d6F-7C-Cqa"/>
-                                            <include reference="zmS-Sp-zbH"/>
                                             <include reference="7nD-Is-Su8"/>
                                             <include reference="KfT-ud-445"/>
                                             <include reference="MOL-n8-cY4"/>
                                             <include reference="V4I-d8-tNF"/>
+                                            <include reference="KSi-qi-Pmk"/>
+                                            <include reference="d6F-7C-Cqa"/>
+                                            <include reference="zmS-Sp-zbH"/>
                                         </mask>
                                     </variation>
                                 </tableViewCellContentView>
@@ -326,12 +320,11 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zkf-Km-7jJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5946" y="-79"/>
+            <point key="canvasLocation" x="5970" y="-91"/>
         </scene>
         <!--Meme Detail View Controller-->
         <scene sceneID="4gH-sM-pZd">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eA0-ye-w0J" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="MemeDetail" id="W9r-Ce-t2L" customClass="MemeDetailViewController" customModule="MemeMe_V1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Cgh-tk-XaR"/>
@@ -359,10 +352,10 @@
                                 <exclude reference="hD8-k8-olg"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="9GP-Xh-fFk"/>
                                 <exclude reference="Kdy-ZU-eQ1"/>
                                 <exclude reference="qol-6p-SY1"/>
                                 <exclude reference="zDZ-vC-AP4"/>
-                                <exclude reference="9GP-Xh-fFk"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -370,10 +363,10 @@
                                 <include reference="hD8-k8-olg"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="9GP-Xh-fFk"/>
                                 <include reference="Kdy-ZU-eQ1"/>
                                 <include reference="qol-6p-SY1"/>
                                 <include reference="zDZ-vC-AP4"/>
-                                <include reference="9GP-Xh-fFk"/>
                             </mask>
                         </variation>
                     </view>
@@ -383,6 +376,7 @@
                         <outlet property="memeImage" destination="hD8-k8-olg" id="Hjl-hN-Naw"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eA0-ye-w0J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6832.5" y="239"/>
         </scene>
